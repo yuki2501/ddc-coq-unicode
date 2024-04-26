@@ -1,4 +1,4 @@
-import { Meta } from "../@ddc-sources/coq-unicode.ts";
+import { Meta } from "../@ddc-sources/unicode.ts";
 import { BaseFilter, Item } from "https://deno.land/x/ddc_vim@v3.4.0/types.ts";
 import {
   FilterArguments,
