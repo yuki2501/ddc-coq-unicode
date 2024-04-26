@@ -1,8 +1,8 @@
 import { Meta } from "../@ddc-sources/unicode.ts";
-import { BaseFilter, Item } from "https://deno.land/x/ddc_vim@v3.4.0/types.ts";
+import { BaseFilter, Item } from "https://deno.land/x/ddc_vim@v4.3.1/types.ts";
 import {
   FilterArguments,
-} from "https://deno.land/x/ddc_vim@v3.4.0/base/filter.ts";
+} from "https://deno.land/x/ddc_vim@v4.3.1/base/filter.ts";
 
 export class Filter extends BaseFilter<Record<string, never>> {
   filter(
